@@ -1,0 +1,277 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background: #FED7BA;
+}
+
+
+nav{
+ padding: 10px 50px 20px 50px;
+ background: #FED7BA;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-left{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.nav-left-link:link ,.nav-left-link:visited{
+    width: 73px;
+    height: 36px;
+    top: 38px;
+    left: 53px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #000;         
+
+}
+
+.nav-left-link:hover, .nav-left-link:active{
+    color: orange;
+}
+
+.nav-img{
+    width: 456px;
+    height: 100px;
+    top: 14px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.icon{
+    width: 36px;
+    height: 36px;
+    /* width: 35px;
+    height: 30px; */
+    top: 49px;
+    left: 1147px;
+    gap: 0px;
+    opacity: 0px;
+    stroke: black;
+
+}
+
+/*gift-guide*/
+
+.gift-guide{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.gift-guide-img{
+    width: 1520px;
+    height: 245px;
+    top: 150px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+/**/
+
+.box-gift{
+    padding-top: 60px; 
+
+} 
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .box-container .box {
+    overflow: hidden;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+    /* height: 25rem; */
+    width: 350px;
+    height: 380px;
+    position: relative;
+  }  
+
+  .box-container .box img {
+    /* height: 100%;
+    width: 100%; */
+    width: 350px;
+    height: 380px;
+    object-fit: cover;
+  }
+  
+  .box-container .box .content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    /* height: 100%;
+    width: 100%; */
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    padding-top: 5rem;
+  }
+
+  .box-container .box:hover .content {
+    top: 0;
+  }
+  
+  .box-container .box .content  .content-heading {
+    font-size: 2.5rem;
+    color: orange;
+  }  
+
+  .box-container .box .content p {
+    font-size: 1.5rem;
+    color: #eee;
+    padding: 0.5rem 0;
+    margin-bottom: 20px;
+  } 
+  
+.btn:link, .btn:visited{
+    padding: 12px;
+    background-color: orange;
+    /* margin-top: 12px; */
+    text-decoration: none;
+    color: #eee;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 500;
+
+}  
+
+.btn:hover , .btn:active{
+    background-color: rgb(229, 216, 191);
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+/**/
+
+.gift-love{
+    margin-top: 120px;
+}
+
+.gift-love-box{
+    align-content: center;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.gift-love-img{
+    width: 1400px;
+    height: 407px;
+    top: 1483px;
+    left: 34px;
+    gap: 0px;
+    border-radius: 4px 0px 0px 0px;
+    border: 1px 0px 0px 0px;
+    opacity: 0px;
+    
+}
+
+
+/**/
+
+.main-footer{
+    background: #D9D9D9; 
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 100px;
+    
+
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-heading{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8B0000;
+
+
+}
+
+
+.footer-txt{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 350;
+    text-align: left;
+ 
+}
+
+.footer-contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-link-txt:link, .footer-link-txt:active{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.footer-link-txt:hover , .footer-link-txt:visited{
+    color: orange;
+}
+
+.footer-last{
+    background: #FED7BA;
+    padding: 10px;
+}
+
+.footer-last-txt{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: center;
+    color: #8B0000;
+
+}
