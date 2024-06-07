@@ -1,0 +1,558 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background: #FED7BA;
+}
+
+
+nav{
+ padding: 10px 50px 20px 50px;
+ background: #FED7BA;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-left{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.nav-left-link:link ,.nav-left-link:visited{
+    width: 73px;
+    height: 36px;
+    top: 38px;
+    left: 53px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #000;         
+
+}
+
+.nav-left-link:hover, .nav-left-link:active{
+    color: orange;
+}
+
+.nav-img{
+    width: 456px;
+    height: 100px;
+    top: 14px;
+    margin-right: 20px;
+    margin-top: 20px;
+
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.icon{
+    width: 36px;
+    height: 36px;
+    /* width: 35px;
+    height: 30px; */
+    top: 49px;
+    left: 1147px;
+    gap: 0px;
+    opacity: 0px;
+    stroke: black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+.about-section{
+   
+}
+
+.about{
+   display: grid;
+   grid-template-columns: 300px 1fr;
+   gap: 50px;
+}
+
+.left{
+    width: 300px;
+    height: 2353px;
+    top: 150px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    padding-top: 60px;
+    
+}
+
+.about-left-heading{
+    font-family: Nunito Sans;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 54.56px;
+    text-align: left;
+    color: #8B0000;
+    margin-left: 40px;  
+}
+
+.help-link:link, .help-link:active{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.65px;
+    text-align: left;
+    margin-left: 30px;
+    color: #000;
+    
+}
+
+.help-link:hover,.help-link:active{
+    color: #8B0000;
+    font-weight: 600;
+}
+
+
+
+/*change*/
+
+.help{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.65px;
+    text-align: left;
+    color: #000; 
+    margin-left: 30px;
+}
+
+
+.faq-list{
+    list-style-type: none;
+    padding: 0;
+    margin-left: 50px;
+    
+}
+
+.faq-item:link,.faq-item:active{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.65px;
+    text-align: left;
+    color: #000;
+}
+
+
+/*banner*/
+
+.banner{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.left-img{
+ 
+}
+
+.right-img{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-left{
+    width: 600px;
+    height: 700px;
+    top: 151px;
+    left: 21px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+
+.right-banner-img{
+    width: 599px;
+    height: 340px;
+    top: 570px;
+    left: 819px;
+    gap: 0px;
+    opacity: 0px;
+    
+}
+
+
+.right-banner-ring-img{
+    width: 599px;
+    height: 340px;
+    top: 570px;
+    left: 819px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+
+
+/*Category-heading-sec*/
+
+.Category-heading-sec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.Category-heading{
+    font-family: Nunito Sans;
+    font-size: 46px;
+    font-weight: 600;
+    text-align: left;
+    color: #8B0000;    
+}
+
+.line-sec{
+    margin-bottom: 0px;
+}
+
+.line{
+    width: 1440px;
+    height: 100px;
+    /* top: 200px; */
+    padding: 0px 18.77px 0px 18.77px;
+    gap: 0px;
+    opacity: 0px;
+     
+}
+
+.Category-txt{
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 40.92px;
+    /* text-align: left; */
+    color: #716C6C;
+    
+}
+
+
+
+
+/**/
+
+.Category-product{
+    background-color: #fff;
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.heading-Category-product{
+    display: flex;
+    align-items: center;
+    gap: 600px; 
+    justify-content: center;
+}
+
+.Category-product-heading{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 54px;
+    text-align: left;
+
+}
+
+
+.box-gift{
+    padding-top: 20px; 
+
+} 
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+
+.Crystals{
+    display: flex;
+    gap: 40px;
+}  
+
+.box-container .box {
+    overflow: hidden;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+    /* box-shadow: 0 10px 30px #FED7BA ; */
+    width: 300px;
+    height: 300px;
+    /* background-color: #8B0000; */
+    position: relative;
+  }  
+
+  .box-container .box img {
+    /* height: 100%;
+    width: 100%; */
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+  }
+  
+  .box-container .box .content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    /* height: 100%;
+    width: 100%; */
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    padding-top: 5rem;
+  }
+
+  .box-container .box:hover .content {
+    top: 0;
+  }
+/*   
+  .box-container .box .content  .content-heading {
+    font-size: 2.5rem;
+    color: orange;
+  }   */
+
+  .box-container .box .content p  {
+    font-size: 30px;
+    font-weight: 600;
+    color: #eee;
+    padding: 0.5rem 0;
+    margin-bottom: 40px;
+  } 
+  
+.btn:link, .btn:visited{
+    padding: 12px;
+    background-color: orange;
+    /* margin-top: 12px; */
+    text-decoration: none;
+    color: #eee;
+    border-radius: 9px;
+    font-size: 18px;
+    font-weight: 500;
+
+}  
+
+.btn:hover , .btn:active{
+    background-color: rgb(229, 216, 191);
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+
+
+/**/
+
+
+.Category-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+  }
+
+
+.Category-box .box {
+    overflow: hidden;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.5);
+    width: 350px;
+    height: 380px;
+    /* background-color: #8B0000; */
+    position: relative;
+  }  
+
+  .Category-box .box img {
+    /* height: 100%;
+    width: 100%; */
+    width: 350px;
+    height: 380px;
+    object-fit: cover;
+  }
+  
+  .Category-box .box .content {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    /* height: 100%;
+    width: 100%; */
+    width: 350px;
+    height: 380px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 2rem;
+    padding-top: 5rem;
+  }
+
+  .Category-box .box:hover .content {
+    top: 0;
+  }
+
+
+  .Category-box .box .content p  {
+    font-size: 30px;
+    font-weight: 600;
+    color: #eee;
+    padding: 0.5rem 0;
+    margin-bottom: 40px;
+  } 
+
+
+
+  /***/
+
+.bridal{
+    margin-top: 150px;
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**/
+
+.main-footer{
+    background: #D9D9D9; 
+    padding: 40px;
+    margin-top: 40px;
+}
+
+.footer-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+    margin-left: 100px;
+    
+
+}
+
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-heading{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: left;
+    color: #8B0000;
+
+
+}
+
+
+.footer-txt{
+    font-family: Nunito Sans;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: 350;
+    text-align: left;
+ 
+}
+
+.footer-contact-info{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-link-txt:link, .footer-link-txt:active{
+    font-family: Nunito Sans;
+    font-size: 28px;
+    font-weight: 600;
+    text-decoration: none;
+    
+}
+
+.footer-link-txt:hover , .footer-link-txt:visited{
+    color: orange;
+}
+
+.footer-last{
+    background: #FED7BA;
+    padding: 10px;
+}
+
+.footer-last-txt{
+    font-family: Nunito Sans;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 40.92px;
+    text-align: center;
+    color: #8B0000;
+
+}
+
+.location{
+    width: 354px;
+    height: 189px;
+    top: 2774px;
+    left: 39px;
+    gap: 0px;
+    opacity: 0px;
+}
