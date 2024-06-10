@@ -19,12 +19,13 @@ nav{
 .nav{
     display: flex;
     justify-content: space-between;
+    /* justify-content: space-around; */
 
 }
 
 .nav-left{
     display: flex;
-    gap: 15px;
+    gap: 40px;
     margin-top: 28px;
 }
 
@@ -53,7 +54,7 @@ nav{
     width: 456px;
     height: 100px;
     top: 14px;
-    margin-right: 20px;
+    margin-right: 60px;
     margin-top: 20px;
 
 }
