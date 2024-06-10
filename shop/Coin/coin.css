@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background: #FED7BA;
+}
+
+
+nav{
+ padding: 10px 50px 20px 50px;
+ background: #FED7BA;
+
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    /* justify-content: space-around; */
+
+}
+
+.nav-left{
+    display: flex;
+    gap: 40px;
+    margin-top: 28px;
+}
+
+.nav-left-link:link ,.nav-left-link:visited{
+    width: 73px;
+    height: 36px;
+    top: 38px;
+    left: 53px;
+    gap: 0px;
+    opacity: 0px;
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 36px;
+    text-align: left;
+    color: #000;         
+
+}
+
+.nav-left-link:hover, .nav-left-link:active{
+    color: orange;
+}
+
+.nav-img{
+    width: 456px;
+    height: 100px;
+    top: 14px;
+    margin-right: 60px;
+    margin-top: 20px;
+
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 28px;
+}
+
+.icon{
+    width: 36px;
+    height: 36px;
+    /* width: 35px;
+    height: 30px; */
+    top: 49px;
+    left: 1147px;
+    gap: 0px;
+    opacity: 0px;
+    stroke: black;
+
+}
+
+
+
+
+
+.about-section{
+   
+}
+
+.about{
+   display: grid;
+   grid-template-columns: 300px 1fr;
+   gap: 50px;
+}
+
+.left{
+    width: 300px;
+    height: 2200px;
+    top: 150px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: left;
+    padding-top: 60px;
+    padding-left: 40px;
+}
+
+.about-left-heading{
+    font-family: Nunito Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 54.56px;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+
+.left-shop-link{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+
+.link-grp{
+    display: flex;
+    flex-direction: column;
+}
+
+.shop-heading{
+    font-family: Nunito Sans;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 54.56px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+
+.shop-link:link , .shop-link:visited{
+    text-decoration: none;
+    font-family: Nunito Sans;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 43.65px;
+    text-align: left;
+    color: #000;
+    margin-bottom: 5px;
+    
+}
+
+.shop-link:hover , .shop-link:active{
+    color: orange;
+    font-weight: 600;
+}
+
+/**/
+
+.right{
+    width: 1120px;
+    height: 2200px;
+    gap: 0px;
+    opacity: 0px;
+    background: #FED7BA;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    /* align-items: center;  */
+    padding: 50px;
+}
